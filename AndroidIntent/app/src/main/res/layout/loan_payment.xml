@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1">
+    <TableRow android:layout_marginTop="20dp">
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/default_foreground"
+            android:textSize="@dimen/font_size"
+            android:text="Loan amount: "
+            android:gravity="right"
+            android:id="@+id/tv_loan"/>
+        <TextView android:id="@+id/loan_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/default_foreground"
+            android:textSize="@dimen/font_size"
+            android:gravity="left"/>
+        </TableRow>
+    <TableRow>
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/default_foreground"
+            android:textSize="@dimen/font_size"
+            android:text="Interest rate: "
+            android:gravity="right"
+            android:id="@+id/intrate"/>
+        <TextView android:id="@+id/interest_rate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/default_foreground"
+            android:textSize="@dimen/font_size"
+            android:gravity="left"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/default_foreground"
+            android:textSize="@dimen/font_size"
+            android:text="Months: "
+            android:gravity="right"
+            android:id="@+id/tv_mth"/>
+        <TextView android:id="@+id/months"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/default_foreground"
+            android:textSize="@dimen/font_size"
+            android:gravity="left"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:layout_span="2"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@color/divider_background"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/default_foreground"
+            android:textSize="@dimen/font_size"
+            android:text="Monthly payment: "
+            android:gravity="right"
+            android:id="@+id/mthly_payment"/>
+        <TextView android:id="@+id/monthly_payment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/result_foreground"
+            android:textSize="@dimen/font_size"
+            android:gravity="left"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/default_foreground"
+            android:textSize="@dimen/font_size"
+            android:text="Total payments: "
+            android:gravity="right"
+            android:id="@+id/total_payment"/>
+        <TextView android:id="@+id/total_payments"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/result_foreground"
+            android:textSize="@dimen/font_size"
+            android:gravity="left"/>
+    </TableRow>
+</TableLayout>
